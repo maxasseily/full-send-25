@@ -26,14 +26,20 @@
     }
   },
 
-  "postCreateCommand":
-    "pip install --upgrade pip && if [ -f requirements.txt ]; then pip install --no-cache-dir -r requirements.txt; fi && npm install -g @withgraphite/graphite-cli@stable",
+  "postCreateCommand": 
+  "if [ -f requirements.txt ]; then pip install --no-cache-dir -r requirements.txt; fi && npm install -g @withgraphite/graphite-cli@stable",
 
   "forwardPorts": [8888],
   "portsAttributes": {
     "8888": { "label": "Jupyter", "onAutoForward": "silent" }
   },
-
+  "mounts": [
+    "source=${localEnv:HOME}/.ssh,target=/root/.ssh,type=bind,consistency=cached",
+    "source=graphite-config,target=/root/.config/graphite,type=volume",
+    "source=bash-history,target=/root/.bash_history,type=volume",
+    "source=claude-code-bashhistory-${devcontainerId},target=/commandhistory,type=volume",
+    "source=claude-code-config-${devcontainerId},target=/home/node/.claude,type=volume"
+  ],
   "features": {
     "ghcr.io/anthropics/devcontainer-features/claude-code:latest": {}
   }
