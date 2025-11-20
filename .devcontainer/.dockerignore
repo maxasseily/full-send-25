@@ -1,0 +1,32 @@
+# Ignore Python cache and build artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+
+# Ignore Git metadata
+.git/
+.gitignore
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+
+# Ignore OS-generated files
+.DS_Store
+
+# Ignore dependency directories
+node_modules/
+
+# Ignore container-related leftovers
+docker-compose.override.yml
+*.log
