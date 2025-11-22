@@ -1,0 +1,14 @@
+/Users/maxasseily/Dev/full-send-25/OpenApplication/bin/Debug/bin/ExamplePlugin.deps.json
+/Users/maxasseily/Dev/full-send-25/OpenApplication/bin/Debug/bin/ExamplePlugin.dll
+/Users/maxasseily/Dev/full-send-25/OpenApplication/bin/Debug/bin/ExamplePlugin.pdb
+/Users/maxasseily/Dev/full-send-25/OpenApplication/src/obj/Debug/ExamplePlugin.csproj.AssemblyReference.cache
+/Users/maxasseily/Dev/full-send-25/OpenApplication/src/obj/Debug/ExamplePlugin.GeneratedMSBuildEditorConfig.editorconfig
+/Users/maxasseily/Dev/full-send-25/OpenApplication/src/obj/Debug/ExamplePlugin.AssemblyInfoInputs.cache
+/Users/maxasseily/Dev/full-send-25/OpenApplication/src/obj/Debug/ExamplePlugin.AssemblyInfo.cs
+/Users/maxasseily/Dev/full-send-25/OpenApplication/src/obj/Debug/ExamplePlugin.csproj.CoreCompileInputs.cache
+/Users/maxasseily/Dev/full-send-25/OpenApplication/src/obj/Debug/ExamplePlugin.sourcelink.json
+/Users/maxasseily/Dev/full-send-25/OpenApplication/src/obj/Debug/ExampleP.1424FD9D.Up2Date
+/Users/maxasseily/Dev/full-send-25/OpenApplication/src/obj/Debug/ExamplePlugin.dll
+/Users/maxasseily/Dev/full-send-25/OpenApplication/src/obj/Debug/refint/ExamplePlugin.dll
+/Users/maxasseily/Dev/full-send-25/OpenApplication/src/obj/Debug/ExamplePlugin.pdb
+/Users/maxasseily/Dev/full-send-25/OpenApplication/src/obj/Debug/ref/ExamplePlugin.dll
