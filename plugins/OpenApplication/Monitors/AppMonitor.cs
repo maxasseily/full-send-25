@@ -98,7 +98,7 @@ namespace Loupedeck.ExamplePlugin.Monitors
                 var processStartInfo = new ProcessStartInfo
                 {
                     FileName = "osascript",
-                    Arguments = "-e 'tell application \"System Events\" to get name of first application process whose frontmost is true'",
+                    Arguments = "-e \"set appPath to POSIX path of (path to frontmost application)\" -e \"do shell script \\\"basename '\\\" & appPath & \\\"' .app\\\"\"",
                     UseShellExecute = false,
                     RedirectStandardOutput = true,
                     RedirectStandardError = true,

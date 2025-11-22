@@ -125,7 +125,11 @@ namespace Loupedeck.ExamplePlugin.Managers
                     {
                         lock (this._lock)
                         {
-                            this._recentApps = loadedApps.Take(MaxRecentApps).ToList();
+                            // Sort by LastOpenedTime descending (most recent first), then take max
+                            this._recentApps = loadedApps
+                                .OrderByDescending(app => app.LastOpenedTime)
+                                .Take(MaxRecentApps)
+                                .ToList();
                         }
 
                         PluginLog.Info($"Loaded {this._recentApps.Count} recent apps from disk");
