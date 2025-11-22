@@ -1,0 +1,17 @@
+C:\Users\hhoechter\NotificationBridge\bin\Debug\net6.0\NotificationBridge.exe
+C:\Users\hhoechter\NotificationBridge\bin\Debug\net6.0\NotificationBridge.deps.json
+C:\Users\hhoechter\NotificationBridge\bin\Debug\net6.0\NotificationBridge.runtimeconfig.json
+C:\Users\hhoechter\NotificationBridge\bin\Debug\net6.0\NotificationBridge.dll
+C:\Users\hhoechter\NotificationBridge\bin\Debug\net6.0\NotificationBridge.pdb
+C:\Users\hhoechter\NotificationBridge\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\hhoechter\NotificationBridge\obj\Debug\net6.0\NotificationBridge.csproj.AssemblyReference.cache
+C:\Users\hhoechter\NotificationBridge\obj\Debug\net6.0\NotificationBridge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hhoechter\NotificationBridge\obj\Debug\net6.0\NotificationBridge.AssemblyInfoInputs.cache
+C:\Users\hhoechter\NotificationBridge\obj\Debug\net6.0\NotificationBridge.AssemblyInfo.cs
+C:\Users\hhoechter\NotificationBridge\obj\Debug\net6.0\NotificationBridge.csproj.CoreCompileInputs.cache
+C:\Users\hhoechter\NotificationBridge\obj\Debug\net6.0\Notifica.3F0FABE3.Up2Date
+C:\Users\hhoechter\NotificationBridge\obj\Debug\net6.0\NotificationBridge.dll
+C:\Users\hhoechter\NotificationBridge\obj\Debug\net6.0\refint\NotificationBridge.dll
+C:\Users\hhoechter\NotificationBridge\obj\Debug\net6.0\NotificationBridge.pdb
+C:\Users\hhoechter\NotificationBridge\obj\Debug\net6.0\NotificationBridge.genruntimeconfig.cache
+C:\Users\hhoechter\NotificationBridge\obj\Debug\net6.0\ref\NotificationBridge.dll
