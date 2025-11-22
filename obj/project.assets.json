@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/maxasseily/Dev/full-send-25/OpenApplication/src/ExamplePlugin.csproj",
+      "projectUniqueName": "/Users/maxasseily/Dev/full-send-25/OpenApplication/ExamplePlugin.csproj",
       "projectName": "ExamplePlugin",
-      "projectPath": "/Users/maxasseily/Dev/full-send-25/OpenApplication/src/ExamplePlugin.csproj",
+      "projectPath": "/Users/maxasseily/Dev/full-send-25/OpenApplication/ExamplePlugin.csproj",
       "packagesPath": "/Users/maxasseily/.nuget/packages/",
       "outputPath": "/Users/maxasseily/Dev/full-send-25/obj/",
       "projectStyle": "PackageReference",

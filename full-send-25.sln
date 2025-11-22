@@ -4,7 +4,7 @@ VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenApplication", "OpenApplication", "{E19B4080-CC42-A105-9FFE-96E75F964CDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePlugin", "OpenApplication\src\ExamplePlugin.csproj", "{6B9F6EA0-9DF9-37E2-1F09-C4ED1E049D61}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePlugin", "OpenApplication\ExamplePlugin.csproj", "{6B9F6EA0-9DF9-37E2-1F09-C4ED1E049D61}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
