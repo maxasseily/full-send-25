@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenApplication", "OpenApplication", "{E19B4080-CC42-A105-9FFE-96E75F964CDD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExamplePlugin", "OpenApplication\src\ExamplePlugin.csproj", "{6B9F6EA0-9DF9-37E2-1F09-C4ED1E049D61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B9F6EA0-9DF9-37E2-1F09-C4ED1E049D61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B9F6EA0-9DF9-37E2-1F09-C4ED1E049D61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B9F6EA0-9DF9-37E2-1F09-C4ED1E049D61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B9F6EA0-9DF9-37E2-1F09-C4ED1E049D61}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B9F6EA0-9DF9-37E2-1F09-C4ED1E049D61} = {E19B4080-CC42-A105-9FFE-96E75F964CDD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4932530A-D58C-4410-A905-CCB9B7B674C0}
+	EndGlobalSection
+EndGlobal
