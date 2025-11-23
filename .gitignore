@@ -32,3 +32,8 @@ project.fragment.lock.json
 
 # Plugin link files
 *.link
+
+# all venv folders
+venv/
+__pycache__/
+.env

@@ -1,0 +1,18 @@
+# Shortcut Suggester Dependencies
+
+# Input monitoring
+pynput>=1.7.6
+
+# Windows-specific (for window tracking)
+pywin32>=306; sys_platform == 'win32'
+psutil>=5.9.0
+
+# Advanced UI element detection
+pywinauto>=0.6.8
+
+# UI (tkinter is built-in)
+# plyer>=2.1.0  # Optional: for native notifications
+
+# Optional: for better packaging
+# pyinstaller>=6.0.0  # For creating executable
+# auto-py-to-exe>=2.40.0  # GUI for PyInstaller

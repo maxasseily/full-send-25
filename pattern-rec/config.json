@@ -1,0 +1,55 @@
+{
+  "application": {
+    "name": "Shortcut Suggester",
+    "version": "1.0.0",
+    "description": "Monitors user actions and suggests keyboard shortcuts"
+  },
+  "monitoring": {
+    "window_poll_interval": 0.5,
+    "action_history_size": 100,
+    "suggestion_cooldown_seconds": 30
+  },
+  "detection": {
+    "patterns": {
+      "repeated_copy": {
+        "enabled": true,
+        "min_count": 3,
+        "within_seconds": 10
+      },
+      "menu_clicks": {
+        "enabled": true,
+        "min_count": 3,
+        "within_seconds": 20
+      },
+      "repeated_find": {
+        "enabled": true,
+        "min_count": 2,
+        "within_seconds": 30
+      },
+      "manual_selection": {
+        "enabled": true
+      },
+      "undo_spam": {
+        "enabled": true,
+        "min_count": 4,
+        "within_seconds": 15
+      }
+    }
+  },
+  "ui": {
+    "notification_duration_ms": 7000,
+    "notification_position": "bottom-right",
+    "show_tips_on_app_switch": false
+  },
+  "database": {
+    "shortcuts_file": "shortcuts.json",
+    "auto_save": true
+  },
+  "features": {
+    "track_keyboard": true,
+    "track_mouse": true,
+    "track_window_changes": true,
+    "show_statistics": true,
+    "learn_from_patterns": true
+  }
+}

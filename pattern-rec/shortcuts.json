@@ -1,0 +1,276 @@
+{
+  "applications": {
+    "chrome.exe": {
+      "name": "Google Chrome",
+      "shortcuts": [
+        {
+          "keys": "Ctrl+T",
+          "action": "New tab",
+          "category": "navigation"
+        },
+        {
+          "keys": "Ctrl+W",
+          "action": "Close tab",
+          "category": "navigation"
+        },
+        {
+          "keys": "Ctrl+Shift+T",
+          "action": "Reopen closed tab",
+          "category": "navigation"
+        },
+        {
+          "keys": "Ctrl+L",
+          "action": "Focus address bar",
+          "category": "navigation"
+        },
+        {
+          "keys": "Ctrl+Shift+N",
+          "action": "New incognito window",
+          "category": "window"
+        },
+        {
+          "keys": "Ctrl+Tab",
+          "action": "Next tab",
+          "category": "navigation"
+        },
+        {
+          "keys": "Ctrl+Shift+Tab",
+          "action": "Previous tab",
+          "category": "navigation"
+        },
+        {
+          "keys": "F6",
+          "action": "Switch focus between address bar and page",
+          "category": "navigation"
+        }
+      ]
+    },
+    "Code.exe": {
+      "name": "Visual Studio Code",
+      "shortcuts": [
+        {
+          "keys": "Ctrl+P",
+          "action": "Quick file open",
+          "category": "navigation"
+        },
+        {
+          "keys": "Ctrl+Shift+P",
+          "action": "Command palette",
+          "category": "general"
+        },
+        {
+          "keys": "Ctrl+`",
+          "action": "Toggle terminal",
+          "category": "view"
+        },
+        {
+          "keys": "Ctrl+B",
+          "action": "Toggle sidebar",
+          "category": "view"
+        },
+        {
+          "keys": "Ctrl+/",
+          "action": "Toggle comment",
+          "category": "editing"
+        },
+        {
+          "keys": "Alt+Up/Down",
+          "action": "Move line up/down",
+          "category": "editing"
+        },
+        {
+          "keys": "Ctrl+D",
+          "action": "Select next occurrence",
+          "category": "editing"
+        },
+        {
+          "keys": "Ctrl+Shift+K",
+          "action": "Delete line",
+          "category": "editing"
+        },
+        {
+          "keys": "F12",
+          "action": "Go to definition",
+          "category": "navigation"
+        }
+      ]
+    },
+    "EXCEL.EXE": {
+      "name": "Microsoft Excel",
+      "shortcuts": [
+        {
+          "keys": "Ctrl+Arrow",
+          "action": "Jump to edge of data region",
+          "category": "navigation"
+        },
+        {
+          "keys": "Ctrl+Shift+L",
+          "action": "Toggle filters",
+          "category": "data"
+        },
+        {
+          "keys": "Alt+=",
+          "action": "AutoSum",
+          "category": "formula"
+        },
+        {
+          "keys": "Ctrl+1",
+          "action": "Format cells dialog",
+          "category": "formatting"
+        },
+        {
+          "keys": "F2",
+          "action": "Edit active cell",
+          "category": "editing"
+        },
+        {
+          "keys": "Ctrl+Space",
+          "action": "Select entire column",
+          "category": "selection"
+        },
+        {
+          "keys": "Shift+Space",
+          "action": "Select entire row",
+          "category": "selection"
+        }
+      ]
+    },
+    "WINWORD.EXE": {
+      "name": "Microsoft Word",
+      "shortcuts": [
+        {
+          "keys": "Ctrl+H",
+          "action": "Find and replace",
+          "category": "editing"
+        },
+        {
+          "keys": "Ctrl+Shift+C",
+          "action": "Copy formatting",
+          "category": "formatting"
+        },
+        {
+          "keys": "Ctrl+Shift+V",
+          "action": "Paste formatting",
+          "category": "formatting"
+        },
+        {
+          "keys": "Ctrl+E",
+          "action": "Center align",
+          "category": "formatting"
+        },
+        {
+          "keys": "Ctrl+L",
+          "action": "Left align",
+          "category": "formatting"
+        },
+        {
+          "keys": "Ctrl+R",
+          "action": "Right align",
+          "category": "formatting"
+        },
+        {
+          "keys": "Ctrl+]",
+          "action": "Increase font size",
+          "category": "formatting"
+        },
+        {
+          "keys": "Ctrl+[",
+          "action": "Decrease font size",
+          "category": "formatting"
+        }
+      ]
+    },
+    "explorer.exe": {
+      "name": "Windows Explorer",
+      "shortcuts": [
+        {
+          "keys": "Ctrl+N",
+          "action": "New window",
+          "category": "window"
+        },
+        {
+          "keys": "Ctrl+Shift+N",
+          "action": "New folder",
+          "category": "file"
+        },
+        {
+          "keys": "F2",
+          "action": "Rename",
+          "category": "file"
+        },
+        {
+          "keys": "Alt+Enter",
+          "action": "Properties",
+          "category": "file"
+        },
+        {
+          "keys": "Ctrl+Shift+E",
+          "action": "Display all folders",
+          "category": "navigation"
+        },
+        {
+          "keys": "Alt+Up",
+          "action": "Go to parent folder",
+          "category": "navigation"
+        },
+        {
+          "keys": "Backspace",
+          "action": "Go back",
+          "category": "navigation"
+        }
+      ]
+    }
+  },
+  "universal_shortcuts": [
+    {
+      "keys": "Ctrl+C",
+      "action": "Copy",
+      "category": "clipboard"
+    },
+    {
+      "keys": "Ctrl+V",
+      "action": "Paste",
+      "category": "clipboard"
+    },
+    {
+      "keys": "Ctrl+X",
+      "action": "Cut",
+      "category": "clipboard"
+    },
+    {
+      "keys": "Ctrl+Z",
+      "action": "Undo",
+      "category": "editing"
+    },
+    {
+      "keys": "Ctrl+Y",
+      "action": "Redo",
+      "category": "editing"
+    },
+    {
+      "keys": "Ctrl+A",
+      "action": "Select all",
+      "category": "selection"
+    },
+    {
+      "keys": "Ctrl+F",
+      "action": "Find",
+      "category": "search"
+    },
+    {
+      "keys": "Ctrl+S",
+      "action": "Save",
+      "category": "file"
+    },
+    {
+      "keys": "Alt+F4",
+      "action": "Close window",
+      "category": "window"
+    },
+    {
+      "keys": "Win+V",
+      "action": "Clipboard history",
+      "category": "clipboard"
+    }
+  ]
+}
